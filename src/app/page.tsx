@@ -111,6 +111,37 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section id='yakitori-shokudo' className='py-12 bg-white'>
+          <div className='container mx-auto px-4'>
+            <div className='flex flex-col md:flex-row items-center gap-8'>
+              <div className='md:w-1/2'>
+                <Image
+                  src='/images/yakitori-shokudo.jpg'
+                  alt='ヤキトリ食堂'
+                  width={600}
+                  height={400}
+                  className='rounded-lg'
+                />
+              </div>
+              <div className='md:w-1/2 space-y-6'>
+                <h2 className='text-3xl font-bold text-orange-800'>美唄のヒーロー ヤキトリ食堂</h2>
+                <p className='text-lg text-orange-700'>
+                  明日のための、美唄の味。みんなのトリ男。
+                </p>
+                <p className='text-orange-600'>
+                  厳選された新鮮な食材と、職人の技が織りなす極上の一串をお届けします。
+                </p>
+                <a
+                  href='/restaurant'
+                  className='inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300'
+                >
+                  詳しく見る
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
