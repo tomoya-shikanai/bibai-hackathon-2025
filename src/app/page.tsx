@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 const games = [
   {
     title: 'ヤキトリキャッチ',
-    image: '/images/yakitori-character.png',
+    image: '/images/yakitori-catch.jpg',
     description: '美唄の名産で美唄やきとりを全身運動で作ろう！',
     url: '/game/catch',
   },
