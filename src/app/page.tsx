@@ -20,9 +20,6 @@ const games = [
 ]
 
 export default function Home() {
-  const playGame = (gameTitle: string) => {
-    alert(`${gameTitle}を開始します！`)
-  }
 
   return (
     <div className="min-h-screen flex flex-col">
