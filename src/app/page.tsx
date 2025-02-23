@@ -7,11 +7,13 @@ const games = [
     title: 'ヤキトリキャッチ',
     image: '/images/yakitori-character.png',
     description: '美唄の名産で美唄やきとりを全身運動で作ろう！',
+    url: '/game/catch',
   },
   {
     title: 'ヤキトリ男15パズル',
     image: '/images/yakitorio-15puzzle.png',
     description: '美唄のご当地キャラでパズル！',
+    url: '/game/15puzzle',
   },
   // {
   //   title: '農場シミュレーター',
@@ -67,9 +69,12 @@ export default function Home() {
                 <div className='p-4'>
                   <h3 className='font-bold text-xl mb-2 text-orange-800'>{game.title}</h3>
                   <p className='text-orange-700 mb-4'>{game.description}</p>
-                  <button className='bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded transition duration-300'>
+                  <a
+                    href={game.url}
+                    className='bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded transition duration-300'
+                  >
                     プレイ
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
