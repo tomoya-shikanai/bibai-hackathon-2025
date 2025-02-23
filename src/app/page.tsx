@@ -43,7 +43,7 @@ export default function Home() {
       <main>
         <section id='message-area' className='py-12 text-center bg-orange-50'>
           <h2 className='text-3xl font-bold mb-4 text-orange-800'>
-            美唄のこどもたちがスクラッチ開発
+            美唄のこどもたちがScratchでアプリ開発
           </h2>
           <p className='text-xl max-w-2xl mx-auto text-orange-700'>
             美唄の子どもたちが、地域の特色を活かしたゲームを開発しました。
